@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap');
+
+body {
+  background-color: #ececec;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #EC8F5E;
+  padding: 24px 0px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.bolder {
+  color: #ffff;
+  font-family: 'Lemon', serif;
+}
+
+.card-main{
+  margin: 14px 18px;
+  border-radius: 0px;
+}
+
+#welcome {
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav {
+  margin-bottom: 18px;
+}
+
+.nav-link {
+  color: #F3B664;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #000;
+  background-color: #F3B664;
+}
+
+.title {
+  background-color: #EC8F5E;
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffff;
+  padding: 18px 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+img {
+  width: 12rem;
+  margin: 24px 0px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.rumus {
+  font-size: 14px;
+  padding: 4px 12px 6px;
+  background-color: #F1EB90;
+}
+
+.calc {
+  border: 1px solid #EC8F5E;
+  padding: 0px 18px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.form-floating, .form-control {
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border-color: #F1EB90;
+  box-shadow: 0 0 0 .25rem #f1eb90a1;
+}
+
+.btn-primary, .btn-danger {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.btn-primary {
+  background-color: #607244;
+  border-color: #607244;
+  width: 6rem;
+}
+
+.btn-primary:hover {
+  background-color: #414933;
+  border-color: #414933;
+}
+
+.btn-danger {
+  background-color: #c44838;
+  border-color: #c44838;
+  margin-bottom: 16px;
+}
+
+.btn-danger:hover {
+  background-color: #af2f1e;
+  border-color: #af2f1e;
+}

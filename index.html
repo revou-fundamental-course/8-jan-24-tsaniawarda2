@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Matematik Persegi</title>
+    <link rel="shortcut icon" href="./assets/calculator.png" />
+
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Internal -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header text-center">
+      <span class="bolder">Katik </span>Kalkulator Matematik
+    </header>
+
+    <!-- Main -->
+    <main class="card card-main">
+      <div class="card-body">
+        <h1 class="text-center">Welcome to Katik</h1>
+        <p id="welcome" >Hai Sobat, Selamat datang di Katik... <br> Sebuah web apps sederhana yang bertugas untuk menghitung nilai luas dan keliling bangun datar</p>
+
+        <!-- Menu -->
+        <ul class="nav flex-column text-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#luas">>>> Luas Persegi <<<</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#keliling">>>> Keliling Persegi <<<</a>
+          </li>
+        </ul>
+
+        <!-- Luas -->
+        <div id="luas">
+          <div class="title text-center">Luas Persegi</div>
+          <div class="calc">
+            <div class="img-square text-center">
+              <img src="./assets/persegi.png" alt="persegi" />
+            </div>
+            <p>
+              Rumus Luas Persegi yaitu: 
+              <div class="text-center">
+                <span class="rumus">L = S x S</span>
+              </div>
+            </p>
+            <p>
+              Keterangan: <br>
+              L= Luas <br>
+              S= Sisi
+            </p>
+  
+            <!-- Calculator Luas -->
+            <hr />
+            <h2 class="text-center">Hitung Luas Persegi</h2>
+              
+            <div class="form-floating mb-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="panjangSisi"
+                  placeholder="Nilai sisi"
+                />
+                <label for="panjangSisi">Nilai sisi</label>
+            </div>
+  
+            <div id="luasPersegi"></div>
+      
+            <div class="text-center">
+              <button type="button" class="btn btn-primary" >Hitung</button>
+             </div>
+              
+            <div class="text-end">
+              <button type="button" class="btn btn-danger" >Reset</button>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <!-- Keliling -->
+        <div id="keliling">
+          <div class="title text-center">Keliling Persegi</div>
+          <div class="calc">
+            <div class="img-square text-center">
+              <img src="./assets/persegi.png" alt="persegi" />
+            </div>
+            <p>
+              Rumus Keliling Persegi yaitu: 
+              <div class="text-center">
+                <span class="rumus">K = 4 x S</span>
+              </div>
+            </p>
+            <p>
+              Keterangan: <br>
+              K= Keliling <br>
+              S= Sisi
+            </p>
+  
+            <!-- Calculator Keliling -->
+            <hr />
+            <h2 class="text-center">Hitung Keliling Persegi</h2>
+              
+            <div class="form-floating mb-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="nilaiSisi"
+                  placeholder="Nilai sisi"
+                />
+                <label for="nilaiSisi">Nilai sisi</label>
+            </div>
+  
+            <div id="kelilingPersegi"></div>
+      
+            <div class="text-center">
+              <button type="button" class="btn btn-primary" >Hitung</button>
+              </div>
+              
+            <div class="text-end">
+              <button type="button" class="btn btn-danger" >Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- File JS -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
